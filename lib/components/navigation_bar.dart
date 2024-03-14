@@ -27,7 +27,8 @@ class _CustomNavigationBarState extends State<CustomNavigationBar> {
           label: '卡片盒',
         ),
         NavigationDestination(
-          icon: Icon(Icons.credit_card),
+          selectedIcon: Icon(Icons.credit_card),
+          icon: Icon(Icons.credit_card_outlined),
           label: '所有卡片',
         ),
       ],
